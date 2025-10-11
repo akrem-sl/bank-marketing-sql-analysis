@@ -8,19 +8,19 @@ This project analyzes the performance of a Portuguese bank’s direct marketing 
 
 ### 🧭 Executive Dashboard  
 **Focus:** Overall performance metrics, conversion rate, and customer demographics.  
-![Executive Dashboard](Screenshots/Bank_Marketing_PowerBI_Executive.png)
+![Executive Dashboard](Bank_Marketing_PowerBI_Executive.png)
 
 ---
 
 ### 📊 Deep Insights Dashboard  
 **Focus:** Call duration impact, economic indicators, and previous campaign outcomes.  
-![Deep Insights Dashboard](Screenshots/Bank_Marketing_PowerBI_DeepInsights.png)
+![Deep Insights Dashboard](Bank_Marketing_PowerBI_DeepInsights.png)
 
 ---
 
 ### 🎯 Campaign Analysis Dashboard  
 **Focus:** Channel efficiency, campaign timing, and customer targeting optimization.  
-![Campaign Analysis Dashboard](Screenshots/Bank_Marketing_PowerBI_CampaignAnalysis.png)
+![Campaign Analysis Dashboard](Bank_Marketing_PowerBI_CampaignAnalysis.png)
 
 ---
 
