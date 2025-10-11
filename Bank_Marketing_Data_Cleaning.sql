@@ -1,0 +1,1 @@
+SELECT * FROM bank_marketing.bank_clean;

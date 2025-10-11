@@ -1,0 +1,22 @@
+﻿Column Name,Description,Data Type,Example
+age,Age of the client,Integer,35
+job,Client’s job type,Varchar,management
+marital,Marital status,Varchar,married
+education,Education level,Varchar,university.degree
+default,Has credit in default?,Varchar,no
+housing,Has housing loan?,Varchar,yes
+loan,Has personal loan?,Varchar,no
+contact,Communication type,Varchar,cellular
+month,Last contact month,Varchar,may
+day_of_week,Day of last contact,Varchar,mon
+duration,Call duration in seconds,Integer,320
+campaign,Number of contacts during campaign,Integer,2
+pdays,Days since last contact,Integer,999
+previous,Number of previous contacts,Integer,0
+poutcome,Previous campaign outcome,Varchar,success
+emp_var_rate,Employment variation rate,Float,1.1
+cons_price_idx,Consumer price index,Float,93.994
+cons_conf_idx,Consumer confidence index,Float,-36.4
+euribor3m,3-month Euribor rate,Float,4.857
+nr_employed,Number of employees (economic indicator),Float,5191
+y,Target variable (term deposit subscription),Varchar,yes/no
