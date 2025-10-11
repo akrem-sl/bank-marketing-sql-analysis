@@ -85,15 +85,17 @@ Four tables were connected in Power BI:
 ---
 
 ## 📂 **Repository Contents**
-| File/Folder | Description |
-|--------------|-------------|
-| `Bank_Marketing_Data_Cleaning.sql` | Data cleaning and preprocessing queries |
-| `Bank_Marketing_Analysis_Queries.sql` | 10 SQL business analysis queries |
-| `Results_CSV/` | CSV outputs for each business question |
-| `Bank_Marketing_PowerBI.pbix` | Power BI dashboard with 3 pages + insights |
-| `Screenshots/` | Dashboard preview images |
-| `Bank_Marketing_SQL_CaseStudy.pdf` | 1-page recruiter-friendly summary |
-| `DataDictionary.csv` | Data column reference |
+| File | Description |
+|-------|-------------|
+| `Bank_Marketing_Data_Cleaning.sql` | SQL data cleaning queries |
+| `Bank_Marketing_Analysis_Queries.sql` | SQL analysis (10 business questions) |
+| `Q1_Age_Group_Conversion.csv` → `Q10_Marital_Status.csv` | CSV outputs of each analysis query |
+| `Bank_Marketing_PowerBI.pbix` | Full Power BI report (3 dashboards + insights) |
+| `Bank_Marketing_PowerBI_Executive.png` | Executive Dashboard Preview |
+| `Bank_Marketing_PowerBI_DeepInsights.png` | Deep Insights Dashboard Preview |
+| `Bank_Marketing_PowerBI_CampaignAnalysis.png` | Campaign Analysis Dashboard Preview |
+| `Bank_Marketing_SQL_CaseStudy.pdf` | 1-page recruiter summary |
+| `DataDictionary.csv` | Dataset schema and column description |
 
 ---
 
