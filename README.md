@@ -23,7 +23,7 @@ Key business questions:
 ---
 
 ### 📊 Dashboard Preview  
-*(Visuals scaled and centered for cleaner presentation)*  
+
 
 <p align="center">
   <img src="Bank_Marketing_PowerBI_Executive.png" alt="Executive Dashboard" width="75%" />
