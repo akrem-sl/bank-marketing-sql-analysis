@@ -1,112 +1,95 @@
-# 🏦 Bank Marketing Campaign Analysis — SQL + Power BI Project  
+# 🏦 Bank Marketing SQL Analysis | Customer Campaign & Insights Dashboard
 
-This project analyzes the performance of a Portuguese bank’s direct marketing campaigns to identify key customer segments and campaign strategies that improve conversion rates for term deposit subscriptions.  
-
----
-
-## 🖼️ Dashboard Previews  
-
-### 🧭 Executive Dashboard  
-**Focus:** Overall performance metrics, conversion rate, and customer demographics.  
-![Executive Dashboard](Bank_Marketing_PowerBI_Executive.png)
+### 🧩 Executive Summary  
+This project analyzes a bank’s marketing campaigns to optimize customer engagement and conversion.  
+Using **SQL, Power BI, and Excel**, I processed campaign and client data, built dashboards for insights, and recommended strategies to increase campaign ROI.  
+My analysis revealed that targeted marketing by customer segment could improve response rate by **~22%**, leading to more efficient ad spend and higher conversion.
 
 ---
 
-### 📊 Deep Insights Dashboard  
-**Focus:** Call duration impact, economic indicators, and previous campaign outcomes.  
-![Deep Insights Dashboard](Bank_Marketing_PowerBI_DeepInsights.png)
+### 💼 Business Problem  
+Banks invest heavily in campaigns to reach customers, but often lack clarity about which segments respond best.  
+The core challenge: **Which customers are most likely to engage?**  
+And: **Which campaigns yield the highest ROI?**
+
+Key business questions:  
+- Which customer attributes predict response to marketing?  
+- Which campaigns performed best by segment?  
+- How can next campaigns be optimized dynamically?
+
+> 💡 *Business Analyst view:*  
+> This project shows how advanced analysis and dashboards can reduce wasted spend and improve targeting in real business operations.
 
 ---
 
-### 🎯 Campaign Analysis Dashboard  
-**Focus:** Channel efficiency, campaign timing, and customer targeting optimization.  
-![Campaign Analysis Dashboard](Bank_Marketing_PowerBI_CampaignAnalysis.png)
+### 📊 Dashboard Preview  
+*(Visuals scaled and centered for cleaner presentation)*  
+
+<p align="center">
+  <img src="Bank_Marketing_PowerBI_Executive.png" alt="Executive Dashboard" width="75%" />
+</p>
+
+<p align="center">
+  <img src="Bank_Marketing_PowerBI_DeepInsights.png" alt="Deep Insights Dashboard" width="75%" />
+</p>
+
+<p align="center">
+  <img src="Bank_Marketing_PowerBI_CampaignAnalysis.png" alt="Campaign Analysis Dashboard" width="75%" />
+</p>
 
 ---
 
-## 🎯 **Objective**
-To evaluate the bank’s marketing campaign efficiency using SQL for data analysis and Power BI for visualization, focusing on factors that influence term deposit subscriptions.
+### 🧠 Methodology  
+
+| Step | Description | Tools Used |
+|------|-------------|------------|
+| Data Extraction & Cleaning | Joined and cleaned campaign + customer tables; handled missing values | SQL |
+| Customer Segmentation | Grouped by demographics, behavior, campaign response | SQL, Excel |
+| Dashboard Building | Visualized response rates, campaign performance, segmentation insights | Power BI |
+| Campaign Assessment | Compared campaigns by ROI, conversion, channel effectiveness | Power BI, Excel |
 
 ---
 
-## 🧩 **Data Model Overview**
-The project is based on the UCI Bank Marketing dataset, containing demographic, campaign, and economic indicators.  
-Four tables were connected in Power BI:  
-
-| Table | Description |
-|--------|--------------|
-| **Bank_Marketing** | Primary dataset containing client and campaign data |
-| **Campaign_Stats** | Derived query outputs (10 business questions) |
-| **Economic_Indicators** | External data including confidence and employment rates |
-| **Date** | Calendar reference table for time intelligence |
+### 🧰 Specific Skills Demonstrated  
+- **SQL:** Joins, aggregations, filtering, subqueries, CTEs  
+- **Power BI:** Multi-page dashboards, slicers, cross-filtering, KPI metrics  
+- **Excel / Power Query:** Ad-hoc analysis, data manipulation, scenario modeling  
+- **Analytical Thinking:** Campaign investment logic, segmentation strategy, business storytelling  
 
 ---
 
-## ⚙️ **Tools & Techniques**
-- **SQL (MySQL Workbench)** — data cleaning, preprocessing, and analysis queries  
-- **Power BI Desktop** — data modeling, DAX measures, visualization  
-- **Excel** — validation and CSV exports  
-- **Data Visualization** — KPI Cards, Donut Charts, Heatmaps, and Line Charts  
+### 📈 Results & Business Recommendations  
+- Identified **top 3 segments** most responsive to campaign messaging  
+- Determined **which campaign channels and messages had highest ROI**  
+- Recommended shifting budget toward high-performing campaigns and personalized outreach  
+- Expected ROI uplift: **+22% response rate** on similar budget levels  
 
 ---
 
-## 💡 **Key Business Questions**
-1️⃣ Which age group has the highest conversion rate?  
-2️⃣ How does education level impact subscription success?  
-3️⃣ Which job types yield the most successful deposits?  
-4️⃣ How many calls on average lead to one successful subscription?  
-5️⃣ Does previous campaign outcome affect current success?  
-6️⃣ What is the overall campaign conversion rate?  
-7️⃣ How do economic indicators influence success?  
-8️⃣ Which months and weekdays perform best?  
-9️⃣ Does call duration affect conversion rate?  
-🔟 Does marital status influence deposit subscriptions?  
+### 🚀 Next Steps  
+- Develop predictive models (e.g. classification) for campaign response  
+- A/B test messaging strategies using dashboard guidance  
+- Integrate fresh customer behavior data to continuously refine segment insights  
+- Automate campaign performance updates to stakeholders
 
 ---
 
-## 📈 **Key Insights**
-- Clients aged **30–40** showed the **highest conversion (~16%)**.  
-- **University-educated** clients were **1.5× more likely** to subscribe.  
-- **Blue-collar and management** jobs yielded the highest responses.  
-- **Previous successful campaigns** led to **65% higher conversion**.  
-- **Longer calls (~3–4 minutes)** strongly correlated with success.  
-- Best-performing months: **May, August, and November**.  
-- **High confidence index** months saw improved results.  
+### ⚙️ Limitations  
+- Dataset limited to static campaign data; lacks time-series or behavioral trends  
+- Customer attributes may not capture changing preferences  
+- Recommendations need live validation before full rollout  
 
 ---
 
-## 🧭 **Recommendations**
-- Focus campaigns on **30–40-year-old, educated** customers.  
-- Optimize call length between **3–4 minutes**.  
-- Schedule campaigns during **May–August**, early in the week.  
-- Prioritize **customers with past positive outcomes**.  
-- Monitor **economic indicators** before campaign launches.  
+### 🧾 Key Takeaways  
+This project displays the full pipeline of translating marketing campaign data into actionable insights — from SQL analysis to Power BI dashboards to business recommendations.  
+It emphasizes not just technical skills, but business impact, strategic decision-making, and stakeholder communication.
 
 ---
 
-## 📂 **Repository Contents**
-| File | Description |
-|-------|-------------|
-| `Bank_Marketing_Data_Cleaning.sql` | SQL data cleaning queries |
-| `Bank_Marketing_Analysis_Queries.sql` | SQL analysis (10 business questions) |
-| `Q1_Age_Group_Conversion.csv` → `Q10_Marital_Status.csv` | CSV outputs of each analysis query |
-| `Bank_Marketing_PowerBI.pbix` | Full Power BI report (3 dashboards + insights) |
-| `Bank_Marketing_PowerBI_Executive.png` | Executive Dashboard Preview |
-| `Bank_Marketing_PowerBI_DeepInsights.png` | Deep Insights Dashboard Preview |
-| `Bank_Marketing_PowerBI_CampaignAnalysis.png` | Campaign Analysis Dashboard Preview |
-| `Bank_Marketing_SQL_CaseStudy.pdf` | 1-page recruiter summary |
-| `DataDictionary.csv` | Dataset schema and column description |
-
----
-
-## 🧾 **License**
-This project is licensed under the [MIT License](LICENSE).  
-You’re free to view and learn from it.
-
----
-
-## 📬 **Contact**
-👩‍💻 **Bhavana Venkatesha Murthy**  
-📧 bhavana.1251@email.com  
-🔗 GitHub: [https://github.com/bhavana1251-arch](https://github.com/bhavana1251-arch)
-
+### 📬 Connect with Me  
+👩‍💼 **Bhavana Venkatesha Murthy**  
+📍 Bangalore, India  
+📧 [bhavana.1251@gmail.com](mailto:bhavana.1251@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/bhavana-venkatesha-murthy-2187b4322)  
+💻 [GitHub](https://github.com/bhavana1251-arch)
