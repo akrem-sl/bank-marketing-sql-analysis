@@ -17,8 +17,8 @@ Key business questions:
 - Which campaigns performed best by segment?  
 - How can next campaigns be optimized dynamically?
 
-> 💡 *Business Analyst view:*  
-> This project shows how advanced analysis and dashboards can reduce wasted spend and improve targeting in real business operations.
+> 💡 Marketing Analyst mindset:
+This project shows how data-driven insights can refine customer targeting, optimize marketing spend, and directly improve campaign ROI — connecting analytics to business outcomes.
 
 ---
 
